@@ -12,6 +12,22 @@ The visual guide of this repo and tutorial is in the `visual guide` folder.
 
 **If you run into errors, please review the troubleshooting section further down this page.**
 
+## Windows Prep
+1. Download and Install Node.js
+https://nodejs.org/en
+If "npm -v" doesn't work after installation fix your envrionment variable path in Windows 
+
+2. Install PNPM 
+```
+iwr https://get.pnpm.io/install.ps1 -useb | iex
+```
+source:https://pnpm.io/installation#on-windows
+
+2. Install GIT
+```
+https://git-scm.com/download/win
+```
+
 ## Development
 
 1. Clone the repo
@@ -23,6 +39,7 @@ git clone [github https url]
 2. Install packages
 
 ```
+cd [project]
 pnpm install
 ```
 
