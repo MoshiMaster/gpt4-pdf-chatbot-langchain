@@ -14,14 +14,14 @@ The visual guide of this repo and tutorial is in the `visual guide` folder.
 
 ## Windows Prep
 1. Download and Install Node.js
-https://nodejs.org/en
-If "npm -v" doesn't work after installation fix your envrionment variable path in Windows 
+- https://nodejs.org/en
+- (If "npm -v" doesn't work after installation fix your envrionment variable path in Windows)
 
 2. Install PNPM 
 ```
 iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```
-source:https://pnpm.io/installation#on-windows
+- source:https://pnpm.io/installation#on-windows
 
 2. Install GIT
 ```
