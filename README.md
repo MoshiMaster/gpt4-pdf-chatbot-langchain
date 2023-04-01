@@ -61,7 +61,8 @@ PINECONE_INDEX_NAME=
 - Visit [pinecone](https://pinecone.io/) to create and retrieve your API keys, and also retrieve your environment and index name from the dashboard.
 -- When creating the Index, choose Dimensions:`1536` Metric:`cosine`, rest keep default. (It takes a while to initialize it)
 
-4. In the `config` folder, replace the `PINECONE_NAME_SPACE` with a `namespace` where you'd like to store your embeddings on Pinecone when you run `pnpm run ingest`. This namespace will later be used for queries and retrieval.
+### Optional Steps
+4. In the `config` folder, replace the const `pdf-test` to whatever you want, to store your embeddings on Pinecone when you run `pnpm run ingest`. This namespace will later be used for queries and retrieval.
 
 5. In `utils/makechain.ts` chain change the `QA_PROMPT` for your own usecase. Change `modelName` in `new OpenAIChat` to `gpt-3.5-turbo`, if you don't have access to `gpt-4`. Please verify outside this repo that you have access to `gpt-4`, otherwise the application will not work with it.
 
