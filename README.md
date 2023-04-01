@@ -37,8 +37,8 @@ git clone [github https url]
 
 2. Install packages
 
+- cd [project]
 ```
-cd [project]
 pnpm install
 ```
 
