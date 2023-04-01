@@ -17,16 +17,15 @@ The visual guide of this repo and tutorial is in the `visual guide` folder.
 - https://nodejs.org/en
 - (If "npm -v" doesn't work after installation fix your envrionment variable path in Windows)
 
-2. Install PNPM 
+2. Install PNPM via Terminal
 ```
 iwr https://get.pnpm.io/install.ps1 -useb | iex
 ```
 - source:https://pnpm.io/installation#on-windows
 
 2. Install GIT
-```
-https://git-scm.com/download/win
-```
+- https://git-scm.com/download/win
+
 
 ## Development
 
